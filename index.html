@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josoa Elie - Développeur Full-Stack | ZanaTech</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-logo">Elie.Dev</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">Elie.Dev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 hero-content">
+                    <h1 class="hero-title">Salut, moi c'est <span class="golden-text">Josoa Elie</span></h1>
+                    <h2 class="hero-title" style="font-size: 3rem;">Développeur & Designer Web</h2>
+                    <p class="hero-subtitle">Je conçois des expériences web modernes, performantes et sur-mesure pour des marques ambitieuses.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary-custom">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-outline-custom">Me contacter</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero-profile-image">
+                        <div class="profile-image-wrapper">
+                            <div class="profile-image-inner">
+                                <img src="./asset/images/IMG_20241130_130217.jpg" alt="Josoa Elie">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <p class="section-subtitle">Passionné par la création d'expériences digitales exceptionnelles</p>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="about-content fade-in">
+                        <p style="font-size: 1.1rem; line-height: 1.8;">
+                            Je suis un développeur web full-stack basé à Madagascar, animé par une passion profonde pour la technologie et le design. Mon approche combine <strong>précision technique</strong>, <strong>créativité visuelle</strong> et <strong>innovation</strong> pour créer des solutions web qui ne se contentent pas de fonctionner, mais qui inspirent et transforment.
+                        </p>
+                        <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1.5rem;">
+                            Chaque projet est une opportunité de repousser les limites, d'apprendre et de créer quelque chose d'unique. Je crois en la <strong>simplicité élégante</strong> et en l'importance de comprendre profondément les besoins de mes clients pour leur offrir des solutions qui dépassent leurs attentes.
+                        </p>
+
+                        <!-- Stats Counter -->
+                        <div class="stats-container">
+                            <div class="row">
+                                <div class="col-md-4 stat-item">
+                                    <div class="stat-number" data-target="2">0</div>
+                                    <div class="stat-label">Années d'expérience</div>
+                                </div>
+                                <div class="col-md-4 stat-item">
+                                    <div class="stat-number" data-target="3">0</div>
+                                    <div class="stat-label">Projets réalisés</div>
+                                </div>
+                                <div class="col-md-4 stat-item">
+                                    <div class="stat-number" data-target="3">0</div>
+                                    <div class="stat-label">Clients satisfaits</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 style="margin-top: 2rem; color: var(--dore);">Compétences Techniques</h4>
+                        <div class="skills-grid">
+                            <div class="skill-badge">HTML5</div>
+                            <div class="skill-badge">CSS3</div>
+                            <div class="skill-badge">JavaScript</div>
+                            <div class="skill-badge">PHP</div>
+                            <div class="skill-badge">MySQL</div>
+                            <div class="skill-badge">Bootstrap</div>
+                            <div class="skill-badge">jQuery</div>
+                        </div>
+
+                        <h4 style="margin-top: 2rem; color: var(--dore);">Outils</h4>
+                        <div class="skills-grid">
+                            <div class="skill-badge">VS Code</div>
+                            <div class="skill-badge">Git/Github</div>
+                            <div class="skill-badge">Photoshop</div>
+                            <div class="skill-badge">Illustrator</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section" style="background: var(--gris);">
+        <div class="container">
+            <h2 class="section-title">Ce que je fais</h2>
+            <p class="section-subtitle">Des services complets pour donner vie à vos projets digitaux</p>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card fade-in">
+                        <div class="service-icon"><i class="fas fa-code"></i></div>
+                        <h3 class="service-title">Développement Web Dynamique</h3>
+                        <p>Création d'applications web robustes et performantes avec des technologies modernes et une architecture MVC optimisée.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card fade-in">
+                        <div class="service-icon"><i class="fas fa-palette"></i></div>
+                        <h3 class="service-title">Design UI/UX & Identité</h3>
+                        <p>Conception d'interfaces élégantes et intuitives qui captivent vos utilisateurs et renforcent votre identité de marque.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card fade-in">
+                        <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                        <h3 class="service-title">Intégration & Maintenance</h3>
+                        <p>Intégration soignée de vos designs et maintenance continue pour garantir la pérennité de vos projets web.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card fade-in">
+                        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3 class="service-title">Optimisation & SEO</h3>
+                        <p>Optimisation des performances et du référencement pour maximiser la visibilité et l'impact de votre présence en ligne.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Réalisations</h2>
+            <p class="section-subtitle">Une sélection de projets qui illustrent ma vision et mes compétences</p>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Sites Web</button>
+                <button class="filter-btn" data-filter="app">Applications</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card fade-in" data-category="app" data-bs-toggle="modal" data-bs-target="#projectModal" 
+                     data-title="Système de Gestion de Stock" 
+                     data-desc="Application complète de gestion d'inventaire avec tableaux de bord interactifs, gestion des fournisseurs et factures automatisés."
+                     data-tech="PHP, MySQL, Bootstrap, jQuery, AJAX">
+                    <div class="project-image"><i class="fas fa-boxes"></i></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Système de Gestion de Stock</h3>
+                        <p>Application complète pour la gestion d'inventaire et de stock en temps réel.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="web" data-bs-toggle="modal" data-bs-target="#projectModal"
+                     data-title="Site Vitrine"
+                     data-desc="Site vitrine moderne pour une vendeur d'épice local avec catalogue produits, système de filtrage avancé ."
+                     data-tech="HTML5, CSS3, JavaScript">
+                    <div class="project-image"><i class="fas fa-shopping-cart"></i></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Site Vitrine</h3>
+                        <p>Plateforme e-commerce élégante avec expérience utilisateur optimisée.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Commerce</span>
+                            <span class="project-tag">Responsive</span>
+                            <span class="project-tag">SEO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="web" data-bs-toggle="modal" data-bs-target="#projectModal"
+                     data-title="Portfolio Photographe"
+                     data-desc="Portfolio immersif avec galerie photo dynamique, effets parallaxe et système de réservation intégré."
+                     data-tech="HTML5, CSS3, jQuery, Lightbox, EmailJS">
+                    <div class="project-image"><i class="fas fa-camera"></i></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Photographe</h3>
+                        <p>Site portfolio immersif avec galerie photo haute résolution.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Portfolio</span>
+                            <span class="project-tag">Animation</span>
+                            <span class="project-tag">Galerie</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="web" data-bs-toggle="modal" data-bs-target="#projectModal"
+                     data-title="Mon portfolio"
+                     data-desc="Mon portfolio est un site web moderne et responsive qui présente mes compétences et mes réalisations."
+                     data-tech="HTML5, CSS3, JavaScript, Bootstrap">
+                    <div class="project-image"><i class="fas fa-user-circle"></i></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mon portfolio</h3>
+                        <p>Site web moderne et responsive présentant mes compétences et réalisations.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Portfolio</span>
+                            <span class="project-tag">Responsive</span>
+                            <span class="project-tag">Moderne</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="background: var(--gris);">
+        <div class="container">
+            <h2 class="section-title">Travaillons Ensemble</h2>
+            <p class="section-subtitle">Un projet en tête ? Discutons-en !</p>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form fade-in">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Votre nom" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Votre email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="6" placeholder="Votre message" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary-custom">
+                                    <i class="fas fa-paper-plane me-2"></i>Envoyer le message
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="social-links">
+                            <a href="https://github.com/Elie1105-tech" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/josoa-elie-andrianiaina-517909295" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://wa.me/+261346310581" target="_blank" class="social-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p style="margin-bottom: 0.5rem;">&copy; 2025 <span class="golden-text">ZanaTech</span> - Josoa Elie. Tous droits réservés.</p>
+            <p style="font-size: 0.9rem; color: rgba(247, 247, 247, 0.6);">Conçu avec passion à Madagascar 🇲🇬</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="modalDesc"></p>
+                    <div class="modal-tech-title">
+                        <i class="fas fa-code"></i>
+                        Technologies utilisées
+                    </div>
+                    <div class="modal-tech-list" id="modalTechList"></div>
+                    <div class="modal-buttons">
+                        <a href="#contact" class="btn btn-primary-custom" data-bs-dismiss="modal">
+                            <i class="fas fa-paper-plane me-2"></i>Me contacter pour ce type de projet
+                        </a>
+                        <a href="#projects" class="btn btn-outline-custom" data-bs-dismiss="modal">
+                            <i class="fas fa-arrow-left me-2"></i>Retour aux projets
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/js/main.js"></script>
+</body>
+</html>
